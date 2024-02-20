@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Protest+Riot&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    background: turquoise;
+}
+
+.mural-info { 
+    margin-top: 12rem;
+}
+
+
+/* Esta media es para que funcione en pantallas cuyo ancho menor sea máximo 900px */
+
+@media screen and (min-width:900px) {
+    .search-rapi{
+        max-width: calc(100vw - 500px) ;
+    }
+    
+}
+
+.card-category {
+    width: 348px;
+    height: 215px;
+}
+
+.card-category img {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card-category p {
+    padding: 10px ;
+    bottom: -40px ;
+    text-align: center;
+}
+
+.card-category:hover{
+    transform: scale(1.2);
+}
+
+.card-category {
+    transition: transform 0.5s ease-in-out;
+}
